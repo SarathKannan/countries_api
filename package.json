@@ -1,0 +1,27 @@
+{
+  "name": "countries_api",
+  "version": "1.0.0",
+  "description": "Get country details like country code, country name nationality and flags",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarathKannan/countries_api.git"
+  },
+  "keywords": [
+    "country",
+    "api",
+    "flag",
+    "world",
+    "country",
+    "code"
+  ],
+  "author": "Sarath Chandran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarathKannan/countries_api/issues"
+  },
+  "homepage": "https://github.com/SarathKannan/countries_api#readme"
+}
