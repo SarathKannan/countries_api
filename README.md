@@ -90,7 +90,9 @@ src/
 
 - `GET /api/v2/country/all`
 - `GET /api/v2/country?name={name}`
-- `GET /api/v2/country/flag?name={IN}&size={128}`
+- `GET /api/v2/country/flag?name={IN}&size={128}` size is optional and default is 32, you can use size=128, size=64, size=48, size=32, size=24, size=16
+- `POST /api/v2/country`
+- `POST /api/v2/country/update`
 
 - See the API's [documentation](https://documenter.getpostman.com/view/11408750/UUy37Qxv).
 
