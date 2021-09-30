@@ -23,5 +23,17 @@
   "bugs": {
     "url": "https://github.com/SarathKannan/countries_api/issues"
   },
-  "homepage": "https://github.com/SarathKannan/countries_api#readme"
+  "homepage": "https://github.com/SarathKannan/countries_api#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "sharp": "^0.29.1"
+  }
 }
