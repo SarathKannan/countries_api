@@ -7,7 +7,7 @@ const config = {
   apiRoot: process.env.API_ROOT || "/api/v2",
   rootDir: path.join(__dirname, ".."),
   mongo: {
-    uri: "mongodb://localhost/country-db-dev",
+    uri: process.env.DB || "mongodb://localhost/country-db-dev",
     options: {
       debug: true,
     },
